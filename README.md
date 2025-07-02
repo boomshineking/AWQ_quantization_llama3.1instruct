@@ -23,9 +23,13 @@ From passing through a lot of hurdles from my previous project, I came to know b
  python bible_chat_demo.py
  ```
  Model Details- 
- Base Model: meta-llama/Llama-3.1-8B-Instruct- LoRA Adapters: Richard9905/Lora_Bible_adaptors_forLLAMA3- 
- Merged Model: Merged_base_LLAMA3_bible-
- Quantized Version: Richard9905/4_bit_AWQ_Model
+ Base Model: meta-llama/Llama-3.1-8B-Instruct- 
+ 
+ Lora_Bible_adaptors_forLLAMA3- https://huggingface.co/Richard9905/Lora_Bible_adaptors_forLLAMA3
+ 
+ Merged Model: Merged_base_LLAMA3_bible-https://huggingface.co/Richard9905/Merged_base_LLAMA3_bible
+ 
+ Quantized Version: Richard9905/4_bit_AWQ_Model-https://huggingface.co/Richard9905/4_bit_AWQ_Model
  Model Merging and Quantization Pipeline
  1. Load base LLaMA 3 model
  2. Apply LoRA Bible adapters
