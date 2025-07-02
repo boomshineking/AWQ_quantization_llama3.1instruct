@@ -47,8 +47,6 @@ From passing through a lot of hurdles from my previous project, I came to know b
  ```bash
  export HF_TOKEN=your_token_here
  ```
- Project Structure- bible_chat_demo.py: Gradio demo UI- quantize_and_merge.py: Script for merging and quantizing model requirements.txt: Python dependencies- README.md: This file
- Future Improvements- Add streaming token output- Expand context DB with more verses- Deploy to GCP Vertex AI or Hugging Face Spaces- Improve RAG pipeline using FAISS
  Acknowledgements- Meta AI for LLaMA 3- Hugging Face for model hosting- Gradio for easy UI- auto-gptq for quantization
  License
  MIT Licens
